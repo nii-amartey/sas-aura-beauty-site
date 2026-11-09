@@ -1,13 +1,17 @@
-// PRELOADER ANIMATION
-const preloader = document.getElementById("preloader");
 
-if (preloader) {
+// WAIT FOR THE HTML PAGE TO LOAD
+document.addEventListener("DOMContentLoaded", () => {
+
+  // PRELOADER ANIMATION
+  const preloader = document.getElementById("preloader");
+
+  if (preloader) {
     preloader.classList.remove("hide");
 
     setTimeout(() => {
-        preloader.classList.add("hide");
+      preloader.classList.add("hide");
     }, 4000);
-}
+  }
 
   // MOBILE NAVIGATION
   const toggle = document.getElementById("menuToggle");
@@ -131,3 +135,4 @@ if (preloader) {
   }
 
 });
+
