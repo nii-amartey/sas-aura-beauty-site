@@ -1,22 +1,13 @@
+// PRELOADER ANIMATION
+const preloader = document.getElementById("preloader");
 
-document.addEventListener("DOMContentLoaded", () => {
+if (preloader) {
+    preloader.classList.remove("hide");
 
-  // PRELOADER ANIMATION
-  const preloader = document.getElementById("preloader");
-
-  if (preloader) {
-    const hidePreloader = () => {
-      setTimeout(() => {
+    setTimeout(() => {
         preloader.classList.add("hide");
-      }, 3000);
-    };
-
-    if (document.readyState === "complete") {
-      hidePreloader();
-    } else {
-      window.addEventListener("load", hidePreloader, { once: true });
-    }
-  }
+    }, 4000);
+}
 
   // MOBILE NAVIGATION
   const toggle = document.getElementById("menuToggle");
