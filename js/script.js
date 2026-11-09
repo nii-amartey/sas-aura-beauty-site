@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     toggle.textContent = "☰";
   }));
 
-  const cfg = window.SAS_ALURA_CONFIG || {};
+  const cfg = window.SAS_AURA_CONFIG || {};
   const wa = document.getElementById("whatsappLink");
   const phone = document.getElementById("phoneLink");
   const insta = document.getElementById("instagramLink");
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
   else insta.addEventListener("click", e => { e.preventDefault(); alert("Add the Instagram link in js/config.js first."); });
 
   const gallery = document.getElementById("gallery");
-  const photos = window.SAS_ALURA_GALLERY || [];
+  const photos = window.SAS_AURA_GALLERY || [];
   const render = filter => {
     const items = photos.filter(p => filter === "all" || p.category === filter);
     gallery.innerHTML = "";
