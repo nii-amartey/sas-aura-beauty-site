@@ -1,13 +1,15 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const preloader = document.getElementById("preloader");
+    
+const preloader = document.getElementById("preloader");
 
-    if (preloader) {
-        window.addEventListener("load", () => {
-            setTimeout(() => {
-                preloader.classList.add("hide");
-            }, 4000);
-        });
-    }
+if (preloader) {
+    window.addEventListener("load", () => {
+        setTimeout(() => {
+            preloader.classList.add("hide");
+        }, 3000);
+    });
+}
+
   const toggle = document.getElementById("menuToggle");
   const nav = document.getElementById("mainNav");
   toggle.addEventListener("click", () => {
