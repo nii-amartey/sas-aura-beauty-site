@@ -9,3 +9,7 @@
     object-fit: cover;
     display: block;
 }
+/* Fix: prevent the loading screen from covering the homepage */
+.preloader {
+    display: none !important;
+}
