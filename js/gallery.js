@@ -1,0 +1,27 @@
+/* SAS ALURA PORTFOLIO GALLERY */
+window.SAS_ALURA_GALLERY = [
+  { category: "makeup", image: "assets/images/makeup/IMG_1644.JPG", title: "IMG 1644" },
+  { category: "makeup", image: "assets/images/makeup/IMG_1645.JPG", title: "IMG 1645" },
+  { category: "makeup", image: "assets/images/makeup/IMG_1646.JPG", title: "IMG 1646" },
+  { category: "makeup", image: "assets/images/makeup/IMG_1647.JPG", title: "IMG 1647" },
+  { category: "makeup", image: "assets/images/makeup/IMG_1649.JPG", title: "IMG 1649" },
+  { category: "makeup", image: "assets/images/makeup/IMG_1650.JPG", title: "IMG 1650" },
+  { category: "makeup", image: "assets/images/makeup/IMG_1651.JPG", title: "IMG 1651" },
+  { category: "makeup", image: "assets/images/makeup/IMG_1652.JPG", title: "IMG 1652" },
+  { category: "makeup", image: "assets/images/makeup/IMG_1653.JPG", title: "IMG 1653" },
+  { category: "makeup", image: "assets/images/makeup/IMG_1654.JPG", title: "IMG 1654" },
+  { category: "makeup", image: "assets/images/makeup/IMG_1655.JPG", title: "IMG 1655" },
+  { category: "makeup", image: "assets/images/makeup/IMG_1656.JPG", title: "IMG 1656" },
+  { category: "makeup", image: "assets/images/makeup/IMG_1657.JPG", title: "IMG 1657" },
+  { category: "makeup", image: "assets/images/makeup/IMG_1660.JPG", title: "IMG 1660" },
+  { category: "makeup", image: "assets/images/makeup/IMG_1661.JPG", title: "IMG 1661" },
+  { category: "makeup", image: "assets/images/makeup/IMG_1662.JPG", title: "IMG 1662" },
+  { category: "makeup", image: "assets/images/makeup/IMG_1664.JPG", title: "IMG 1664" },
+  { category: "makeup", image: "assets/images/makeup/IMG_1665.JPG", title: "IMG 1665" },
+  { category: "nails", image: "assets/images/nails/IMG_1668.JPG", title: "IMG 1668" },
+  { category: "nails", image: "assets/images/nails/IMG_1670.JPG", title: "IMG 1670" },
+  { category: "nails", image: "assets/images/nails/IMG_1671.JPG", title: "IMG 1671" },
+  { category: "nails", image: "assets/images/nails/IMG_1672.JPG", title: "IMG 1672" },
+  { category: "nails", image: "assets/images/nails/IMG_1673.JPG", title: "IMG 1673" },
+  { category: "nails", image: "assets/images/nails/IMG_1674.JPG", title: "IMG 1674" }
+];
