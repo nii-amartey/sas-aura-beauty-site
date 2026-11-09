@@ -1,5 +1,5 @@
-/* SAS ALURA PORTFOLIO GALLERY */
-window.SAS_ALURA_GALLERY = [
+/* SAS AURA PORTFOLIO GALLERY */
+window.SAS_AURA_GALLERY = [
   { category: "makeup", image: "assets/images/makeup/IMG_1644.JPG", title: "IMG 1644" },
   { category: "makeup", image: "assets/images/makeup/IMG_1645.JPG", title: "IMG 1645" },
   { category: "makeup", image: "assets/images/makeup/IMG_1646.JPG", title: "IMG 1646" },
