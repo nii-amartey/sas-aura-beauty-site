@@ -18,15 +18,37 @@ document.addEventListener("DOMContentLoaded", () => {
   }));
 
   const cfg = window.SAS_AURA_CONFIG || {};
-  const wa = document.getElementById("whatsappLink");
-  const phone = document.getElementById("phoneLink");
-  const insta = document.getElementById("instagramLink");
-  if (cfg.whatsapp) wa.href = `https://wa.me/${cfg.whatsapp}`;
-  else wa.addEventListener("click", e => { e.preventDefault(); alert("Add the WhatsApp number in js/config.js first."); });
-  if (cfg.phone) phone.href = `tel:${cfg.phone.replace(/[^\d+]/g, "")}`;
-  else phone.addEventListener("click", e => { e.preventDefault(); alert("Add the phone number in js/config.js first."); });
-  if (cfg.instagram) insta.href = `http://instagram.com/${cfg.instagram}`;
-  else insta.addEventListener("click", e => { e.preventDefault(); alert("Add the Instagram link in js/config.js first."); });
+
+const wa = document.getElementById("whatsappLink");
+const phone = document.getElementById("phoneLink");
+const insta = document.getElementById("instagramLink");
+
+if (cfg.whatsapp) {
+    wa.href = "https://wa.me/" + cfg.whatsapp;
+} else {
+    wa.addEventListener("click", e => {
+        e.preventDefault();
+        alert("Add the WhatsApp number in js/config.js first.");
+    });
+}
+
+if (cfg.phone) {
+    phone.href = "tel:" + cfg.phone.replace(/[^\d]/g, "");
+} else {
+    phone.addEventListener("click", e => {
+        e.preventDefault();
+        alert("Add the phone number in js/config.js first.");
+    });
+}
+
+if (cfg.instagram) {
+    insta.href = "https://instagram.com/" + cfg.instagram;
+} else {
+    insta.addEventListener("click", e => {
+        e.preventDefault();
+        alert("Add the Instagram link in js/config.js first.");
+    });
+}
 
   const gallery = document.getElementById("gallery");
   const photos = window.SAS_AURA_GALLERY || [];
