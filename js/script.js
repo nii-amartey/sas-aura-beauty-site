@@ -1,9 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const preloader = document.getElementById("preloader");
-  window.addEventListener("load", () => {
-    setTimeout(() => preloader.classList.add("hide"), 2400);
-  });
+    const preloader = document.getElementById("preloader");
 
+    if (preloader) {
+        window.addEventListener("load", () => {
+            setTimeout(() => {
+                preloader.classList.add("hide");
+            }, 4000);
+        });
+    }
   const toggle = document.getElementById("menuToggle");
   const nav = document.getElementById("mainNav");
   toggle.addEventListener("click", () => {
